@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <button onclick="showPage('home')">Homepage</button>
+            <button onclick="showPage('about')">About Page</button>
+            <button onclick="showPage('portfolio')">Portfolio</button>
+            <button onclick="showPage('contact')">Contact Page</button>
+        </nav>
+    </header>
+    <main id="content">
+        <div id="home" class="page">
+            <h1><strong>Welcome to My Portfolio</strong></h1>
+            <div class="banner">
+                <img src="Banner1.png" alt="Banner" width="300" height="300">
+            </div>
+            <p>This is my video resume (No video resume yet, so empty YT Code): </p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+            <p>Greetings! I am Lui Jacob H. Flores, a grade 12 Information, Communication and Technology student of Mary Immaculate Parish Special School. I study different things such as programming, setting up computers, media and many others.</p>
+            <p>"The time expended to one-up others is better off spent on trying to better oneself."</p>
+            <br><br><br><br>
+        </div>
+        
+        <div id="about" class="page">
+            <h3>Biography</h3>
+            <p>I was born in Las Pinas City and was raised with my parents not on good terms. From Kinder to Nursery, I went to Sto Nino De Eucharistia and once I entered grade school, I enrolled to Mayflower Academy of Las Pinas.
+                Soon, from grades 2 up until 4, I moved to my father's place and studied at La Consolacion College of Tanauan. Afterwards, I moved back to my mother, to Las Pinas City and transferred back to Mayflower. I then entered High school
+                in Mary Immaculate Parish Special School, built connections, relationships with others. Since then, I have been a loyal student of Mary Immaculate Parish Special School Inc.
+            </p>
+            <br>
+            <h3>Credentials and achievements: </h3>
+            <div style="list-style-type: circle;">
+            <li>Participated in Stephren Krashen's webinar on "Fundamentals of Language Acquisition"</li>
+            <li>Actively participated in the seminar "#Sheeshable, Ilang Mungkahing Hakbang sa Responsableng Paggamit ng Social Media"</li>
+            <li>Won 2nd place on the school's competition on "Essay Writing" (2022-2023)</li>
+            </div>
+            <br>
+            <h3>Personal Interests</h3>
+            <div style="list-style-type: circle;">
+                <li>Online gaming (T8, Apex, Valorant, ML:BB, BA, PuroSeka)</li>
+                <li>Reading manga</li>
+                <li>Learning Japanese</li>
+            </div>
+            <br>
+            <h3>Journey as a MIPSS Student</h3>
+            <p>My journey as an ICT student in Mary Immaculate Parish Special School Inc., I had learned great quantities of things. In terms of education, I learned how to deal with hardware components of a computer; how to properly handle them, what their compatibilities are
+                , how a personal computer is build. Other than that, I also learned a variety of programming languages; basics of Java, HTML and JavaScript utilizing Visual Studio Code and Python, while making use of PyCharm. Lastly, proper netiquette and proper use of the internet
+                are also things I learned under my teachers while studying at MIPSS. Socially, I learned how to socialize and how to express myself properly, built solid relationships with my peers.
+            </p>
+        </div>
+
+        <div id="portfolio" class="page">
+            <h1>Portfolio</h1>
+            <div class="section">
+                <h2>CSS</h2>
+                <p>My works in Computer System Servicing: </p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ubIHZDuZqO4" frameborder="0" allowfullscreen></iframe>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/29ibkIBrc5w" frameborder="0" allowfullscreen></iframe>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/aIOcEfnUOWM" frameborder="0" allowfullscreen></iframe>
+                    <br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sop8A-nzoSA" frameborder="0" allowfullscreen></iframe>
+                    <br>
+                    <img src="5S.png" alt="5S image" width="200" height="500">
+            </div>
+            <br><br>
+            <div class="section">
+                <h2>CP</h2>
+                <p>My Works in Computer Programming (Mainly Python):</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_rYuDGfvzeM" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/zwCffgQP_ZY" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/EuysxX6ZgjU" frameborder="0" allowfullscreen></iframe>
+                <br>
+                <a href="https://drive.google.com/drive/folders/14yFzCWX9Lwc8nf4i60Fm-zWT6_qoFMJr?usp=drive_link">ComProg Portfolio</a>
+            </div>
+            <br><br>
+            <div class="section">
+                <h2>WebDev</h2>
+                <p>My website in Website Development: </p>
+                <a href="https://reina-mishima.github.io/Nyuuto/">Nyuuto Restaurant</a>
+            </div>
+        </div>
+
+        <!-- Contact Page content goes here -->
+        <div id="contact" class="page">
+            <h1>Contact Me</h1>
+            <p>For further inquiries, feel free to reach out to me through any of the following: </p>
+            <ul>
+                <img src="gmail.png" alt="gmail" width="20" height="15"> Gmail: ljhf2k5@gmail.com <br><br>
+                <img src="fb.png" alt="FaceBook" width="20" height="20"> FaceBook: <a href="https://www.facebook.com/ljhf.61">Wiji Flores</a><br><br>
+                <img src="phone.png" alt="phone" width="20" height="20"> Phone Number: 0905-343-8782 / 0921-432-7215 <br><br>
+            </ul>
+        </div>
+    </main>
+    <footer>
+        Click one of the 4 navigation bars
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
